@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.item-info {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.premium-content {
+  text-align: center;
+}
+
+.premium-content .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
